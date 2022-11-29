@@ -34,7 +34,9 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@apollo/client": "^3.7.1",
+    "@sitecore-jss/sitecore-jss-forms": "^21.0.1",
     "@sitecore-jss/sitecore-jss-nextjs": "^21.0.0",
+    "@sitecore-jss/sitecore-jss-react-forms": "^21.0.1",
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.9.1",
     "graphql": "^16.6.0",

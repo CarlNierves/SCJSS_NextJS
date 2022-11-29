@@ -6,7 +6,15 @@ export const Store = createContext("");
 let initialState = {
     cart: { cartItems: [] },
  };
-
+// const initialState = {
+//     cart: sessionStorage.getItem('cart') ? JSON.parse(sessionStorage.getItem('cart')!) :
+//     { cartItems: [] },
+// };
+if (typeof window !== 'undefined') {
+    initialState = {
+        cart: JSON.parse(sessionStorage.getItem('cart')!)
+      }
+}
 // if(ses === null) {
 // //   initialState = {
 // //     cart: JSON.parse(sessionStorage.getItem('cart')!),

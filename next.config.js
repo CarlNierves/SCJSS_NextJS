@@ -50,6 +50,11 @@ const nextConfig = {
         source: '/layouts/system/:path*',
         destination: `${jssConfig.sitecoreApiHost}/layouts/system/:path*`,
       },
+      // sc forms
+      {
+        source: '/api/jss/:path*',
+        destination: `${jssConfig.sitecoreApiHost}/api/jss/:path*`,
+      },
     ];
   },
 };
