@@ -32,7 +32,7 @@ const GraphQLConnectedDemo = (props: GraphQLConnectedDemoProps): JSX.Element => 
   useEffect(() => {
     resetEditorChromes();
   }, []);
-
+ console.log(props);
   return (
     <div data-e2e-id="graphql-connected">
       <h2>GraphQL Connected Demo</h2>
