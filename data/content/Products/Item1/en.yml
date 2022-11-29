@@ -1,0 +1,9 @@
+id: steel-pot
+displayName: Steel Pot
+# Template defines the available fields. See /sitecore/definitions/templates/Styleguide-ContentList-Template.sitecore.js
+template: Product-Item-Template
+fields:
+  title: Steel Pot
+  description: Silver steel pot that is perfect for cooking
+  quantity: 23
+  price: 42

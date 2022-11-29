@@ -1,0 +1,9 @@
+id: basketball
+displayName: Basketball
+# Template defines the available fields. See /sitecore/definitions/templates/Styleguide-ContentList-Template.sitecore.js
+template: Product-Item-Template
+fields:
+  title: Basketball
+  description: Outdoor or indoor basketball
+  quantity: 120
+  price: 54.99

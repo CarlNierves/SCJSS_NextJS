@@ -1,0 +1,9 @@
+id: golfclubs
+displayName: Golf Clubs
+# Template defines the available fields. See /sitecore/definitions/templates/Styleguide-ContentList-Template.sitecore.js
+template: Product-Item-Template
+fields:
+  title: Golf Clubs
+  description: Good for golfing
+  quantity: 3
+  price: 427.44

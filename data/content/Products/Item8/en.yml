@@ -1,0 +1,9 @@
+id: baseballgloves
+displayName: Baseball Gloves
+# Template defines the available fields. See /sitecore/definitions/templates/Styleguide-ContentList-Template.sitecore.js
+template: Product-Item-Template
+fields:
+  title: Baseball Gloves
+  description: Professional catcher gloves
+  quantity: 42
+  price: 77.0

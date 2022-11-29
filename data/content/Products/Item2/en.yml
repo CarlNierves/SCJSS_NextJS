@@ -1,0 +1,9 @@
+id: salad-bowl
+displayName: Salad Bowl
+# Template defines the available fields. See /sitecore/definitions/templates/Styleguide-ContentList-Template.sitecore.js
+template: Product-Item-Template
+fields:
+  title: Salad Bowl
+  description: Round wooden bowl perfect for tossing and making salads
+  quantity: 33
+  price: 53

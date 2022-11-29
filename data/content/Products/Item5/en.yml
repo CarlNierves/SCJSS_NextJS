@@ -1,0 +1,9 @@
+id: fertilizer
+displayName: Fertilizer
+# Template defines the available fields. See /sitecore/definitions/templates/Styleguide-ContentList-Template.sitecore.js
+template: Product-Item-Template
+fields:
+  title: Fertilizer
+  description: Nitrogen based fertitlizer
+  quantity: 78
+  price: 23.11

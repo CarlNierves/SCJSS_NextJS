@@ -1,0 +1,9 @@
+id: shovel
+displayName: Shovel
+# Template defines the available fields. See /sitecore/definitions/templates/Styleguide-ContentList-Template.sitecore.js
+template: Product-Item-Template
+fields:
+  title: Shovel
+  description: Grey rounded shovel for digging
+  quantity: 54
+  price: 332

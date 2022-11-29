@@ -1,0 +1,53 @@
+query getProducts($datasource: String!, $language: String!)
+{
+  datasource: item(path: $datasource, language: $language) {
+    id
+    name
+    ...on ProductsList {
+      test {
+        jsonValue
+        value
+      }
+    }
+  }
+  contextItem: item(path: "/sitecore/content/SCNextJs/Content/Products", language: $language) {
+    id
+    displayName    
+    children{
+      results {
+          displayName
+          id
+          name
+          url {
+            path
+          }
+          fields {
+            name
+            value
+          }
+          ...on ProductItemTemplate {
+            title {
+              jsonValue
+              value
+            }
+            description {
+              jsonValue
+              value
+            }
+            image {
+              jsonValue
+              value
+            }
+            price {
+              jsonValue
+              value
+            }
+            quantity {
+              jsonValue
+              value
+            }
+          }
+        }
+      }
+    }
+}

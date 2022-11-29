@@ -1,0 +1,13 @@
+fields:
+  pageTitle: Checkout | Sitecore JSS
+placeholders:
+  jss-main:
+    - componentName: Checkout-Layout
+      placeholders: 
+        Checkout-Layout: 
+          - componentName: Checkout-Summary
+            fields: 
+              heading: 
+          - componentName: Checkout-Form
+            fields:
+              heading: 

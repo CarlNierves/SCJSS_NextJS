@@ -1,0 +1,7 @@
+id: user1
+displayName: Carl Nierves
+# Template defines the available fields. See /sitecore/definitions/templates/Styleguide-ContentList-Template.sitecore.js
+template: Users
+fields:
+  email: carlnierves@mail.com
+  password: 123

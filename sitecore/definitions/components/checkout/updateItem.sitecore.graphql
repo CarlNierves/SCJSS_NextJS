@@ -1,0 +1,13 @@
+mutation UpdateItem($datasource: String!, $language: String!, $query: String!) {
+  updateItem(
+    path: $datasource
+    language: $language
+    fields: $query
+  ) {
+    ... on SampleItem {
+      title {
+        value
+      }
+    }
+  }
+}

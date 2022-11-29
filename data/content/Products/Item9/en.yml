@@ -1,0 +1,9 @@
+id: soccerball
+displayName: Soccer Ball
+# Template defines the available fields. See /sitecore/definitions/templates/Styleguide-ContentList-Template.sitecore.js
+template: Product-Item-Template
+fields:
+  title: Soccer Ball
+  description: Round Ball
+  quantity: 63
+  price: 93.44

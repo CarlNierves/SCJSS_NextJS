@@ -1,0 +1,9 @@
+id: spoon
+displayName: Spoon
+# Template defines the available fields. See /sitecore/definitions/templates/Styleguide-ContentList-Template.sitecore.js
+template: Product-Item-Template
+fields:
+  title: Spoon 
+  description: Small and delicate spoon
+  quantity: 42
+  price: 1.33

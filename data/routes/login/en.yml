@@ -1,0 +1,7 @@
+fields:
+  pageTitle: Login | Sitecore JSS
+placeholders:
+  jss-main:
+    - componentName: LoginForm
+      fields:
+        heading: test

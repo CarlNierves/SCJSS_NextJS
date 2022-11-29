@@ -1,0 +1,8 @@
+fields:
+  pageTitle: Products | Sitecore JSS
+placeholders:
+  jss-main:
+    - componentName: Products-Layout
+      placeholders:
+        Products-Layout:
+          - componentName: Products-List
